@@ -57,7 +57,7 @@ Use the following test cases to confirm your program meets the success criteria
 2. Given the following:
     problem1Numbers = [9, 18, 62, 3, 17]
 
-   Result: 0
+   Result: 21.8
 
 ************/
 
@@ -88,7 +88,6 @@ Use the following test cases to confirm your program meets the success criteria
 1. Given the following:
 
    Expected Result:
-   0
    1
    2
    fizz
@@ -110,4 +109,3 @@ console.log('Problem 3:')
 /** added for formatting purposes **/
 console.log('')
 console.log('-----------------')
-
