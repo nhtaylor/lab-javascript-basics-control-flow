@@ -32,6 +32,31 @@ Use the following test cases to confirm your program meets the success criteria
 console.log('Problem 1:')
 
 // Add your code below this line
+let salary = 50000
+let yearsOfService = 6
+let bonus = 0
+
+if (yearsOfService > 5) {
+  bonus = salary * 0.05
+}
+console.log(bonus)
+
+salary = 90000
+yearsOfService = 5
+bonus = 0
+if (yearsOfService > 5) {
+  bonus = salary * 0.05
+}
+console.log(bonus)
+
+salary = 83000
+yearsOfService = 9
+bonus = 0
+if (yearsOfService > 5) {
+  bonus = salary * 0.05
+}
+console.log(bonus)
+
 
 // Add your code above this line
 
@@ -64,6 +89,25 @@ Use the following test cases to confirm your program meets the success criteria
 console.log('Problem 2:')
 
 // Add your code below this line
+
+// part one
+let numbers = [1, 2, 3]
+
+function arrayAverage(x) {
+  let sum = 0;
+  for (i = 0; i < x.length; i++) {
+    sum = sum + x[i];
+  }
+  let avg = sum / x.length;
+  console.log(avg)
+}
+average(numbers)
+
+
+// part two
+numberz = [9, 18, 62, 3, 17]
+arrayAverage(numberz)
+
 
 // Add your code above this line
 
@@ -103,6 +147,24 @@ Use the following test cases to confirm your program meets the success criteria
 console.log('Problem 3:')
 
 // Add your code below this line
+let set = []
+for (i = 0; i < 100; i++) {
+  set.push(i + 1)
+}
+// console.log(set) // this worked
+
+for (i = 0; i < 100; i++) {
+  if ( set[i] % 5 === 0 && set[i] % 3 === 0) {
+    console.log("fizzbuzz")
+  } else if (set[i] % 5 === 0) {
+    console.log("buzz")
+  } else if (set[i] % 3 === 0) {
+    console.log("fizz")
+  } else {
+    console.log(set[i])
+  }
+}
+
 
 // Add your code above this line
 
