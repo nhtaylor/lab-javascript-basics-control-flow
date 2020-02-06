@@ -101,11 +101,11 @@ function arrayAverage(x) {
   let avg = sum / x.length;
   console.log(avg)
 }
-average(numbers)
+arrayAverage(numbers)
 
 
 // part two
-numberz = [9, 18, 62, 3, 17]
+let numberz = [9, 18, 62, 3, 17]
 arrayAverage(numberz)
 
 
